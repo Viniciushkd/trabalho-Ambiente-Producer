@@ -29,7 +29,8 @@ public class ProducerWS {
 		 		+ "<b>Atributo:</b> message <br>"
 		 		+ "<b>Exemplo:</b> http://localhost:9000/producerMessage?massage=??<br><br>"
 		 		+ "Produzir Queue Route File:<br>"
-		 		+ "<b>WS:</b> \\startRouteProducer";
+		 		+ "<b>WS:</b> \\startRouteProducer<br>"
+		 		+ "<b>Caminho:</b> C:\\route";
 	}
 	
 	@RequestMapping("/producerPerson")
