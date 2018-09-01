@@ -22,10 +22,12 @@ public class ProducerWS {
 		 return "<h1>Producer Web Service</h1>"
 		 		+ "Produzir Queue Objeto:<br>"
 		 		+ "<b>WS:</b> \\producerPerson<br>"
-		 		+ "<b>Atributo</b>: id, nome <br><br>"
+		 		+ "<b>Atributo</b>: id, nome <br>"
+		 		+ "<b>Exemplo:</b> http://localhost:9000/producerPerson?nome=??&idade=00<br><br>"
 		 		+ "Produzir Queue Texto:<br>"
 		 		+ "<b>WS:</b> \\producerMessage<br>"
-		 		+ "<b>Atributo:</b> message <br><br>"
+		 		+ "<b>Atributo:</b> message <br>"
+		 		+ "<b>Exemplo:</b> http://localhost:9000/producerMessage?massage=??<br><br>"
 		 		+ "Produzir Queue Route File:<br>"
 		 		+ "<b>WS:</b> \\startRouteProducer";
 	}
